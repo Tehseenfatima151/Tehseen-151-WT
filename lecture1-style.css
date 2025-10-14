@@ -1,0 +1,287 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+/* ---------- General Page Style ---------- */
+body {
+  font-family: "Quicksand", sans-serif;
+  background: linear-gradient(135deg, #e1b382, #c89666);
+  color: #2d545e;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* ---------- Header ---------- */
+header {
+  background: linear-gradient(90deg, #12343b, #2d545e);
+  color: #e1b382;
+  text-align: center;
+  padding: 35px 20px;
+  border-bottom: 4px solid #c89666;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+/* ---------- Main Section ---------- */
+main {
+  width: 85%;
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+/* ---------- Topic Section ---------- */
+.topic {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 14px;
+  padding: 25px 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.topic:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+.topic h2 {
+  color: #2d545e;
+  border-bottom: 2px solid #c89666;
+  display: inline-block;
+  padding-bottom: 5px;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+.topic p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-top: 10px;
+  color: #12343b;
+}
+
+
+/* ---------- Web 1.0 Info Row (centered + colorful icons) ---------- */
+.info-row.clean {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.info-row.clean .info {
+  background: none;
+  box-shadow: none;
+  padding: 10px 0;
+  flex: 1 1 22%;
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Bigger colorful icons */
+.info-row.clean .info i {
+  font-size: 3rem;
+  margin-bottom: 12px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+.info-row.clean .info:hover i {
+  transform: scale(1.25);
+}
+
+/* Colorful themed icons */
+.info-row.clean .info:nth-child(1) i {
+  color: #ffb703; /* Yellow */
+}
+.info-row.clean .info:nth-child(2) i {
+  color: #3a86ff; /* Blue */
+}
+.info-row.clean .info:nth-child(3) i {
+  color: #fb5607; /* Orange */
+}
+.info-row.clean .info:nth-child(4) i {
+  color: #8338ec; /* Purple (if you ever add a 4th item) */
+}
+
+/* Headings & text */
+.info-row.clean .info h3 {
+  margin: 6px 0 5px;
+  font-size: 1.1rem;
+  color: #2d545e;
+}
+
+.info-row.clean .info p {
+  font-size: 1rem;
+  color: #12343b;
+  margin: 0;
+}
+
+
+/* ---------- Note ---------- */
+.note {
+  margin-top: 18px;
+  background-color: #f9f1e6;
+  padding: 10px 15px;
+  border-left: 5px solid #c89666;
+  border-radius: 6px;
+  font-style: italic;
+  color: #12343b;
+}
+
+/* ---------- List ---------- */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+ul li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: #12343b;
+}
+
+/* ---------- Navigation ---------- */
+.nav {
+  text-align: center;
+  margin-top: 10px;
+}
+.back-btn {
+  display: inline-block;
+  background-color: #12343b; /* Dark blue shadow tone */
+  color: #f0e6d2; /* Light sand text */
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+  margin-bottom: 20px;
+}
+.back-btn:hover {
+  background-color: #2d545e; /* Slightly lighter for hover effect */
+  transform: translateY(-2px);
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  background: #12343b;
+  color: #e1b382;
+  padding: 12px 0;
+  font-size: 0.9rem;
+  margin-top: 60px;
+  box-shadow: 0 -4px 10px rgba(0,0,0,0.1);
+}
+
+/* ---------- Icon Styling (Colorful + Better Size) ---------- */
+
+/* General icon sizing for sections */
+.icon, 
+.info i, 
+ul li i, 
+.note i {
+  font-size: 1.8rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.icon:hover,
+.info i:hover,
+ul li i:hover {
+  transform: scale(1.15);
+}
+
+/* Header & Headings */
+header h1 i,
+.topic h2 i {
+  color: #c89666;
+  margin-right: 8px;
+  font-size: 1.6rem;
+}
+
+/* Info Row Icons — colorful and themed */
+.info:nth-child(1) i {
+  color: #ffb703;  /* Yellow */
+}
+.info:nth-child(2) i {
+  color: #3a86ff;  /* Blue */
+}
+.info:nth-child(3) i {
+  color: #fb5607;  /* Orange */
+}
+.info:nth-child(4) i {
+  color: #8338ec;  /* Purple */
+}
+
+/* List Icons (Examples of Web Platforms) */
+ul li i {
+  font-size: 1.3rem;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Note Section Icon */
+.note i {
+  color: #f4a261;
+  margin-right: 6px;
+  font-size: 1.4rem;
+}
+
+/* Back Button Icon */
+.back-btn i {
+  margin-right: 6px;
+  font-size: 1.2rem;
+  color: inherit;
+}
+
+/* ---------- Features Slide as Single Box ---------- */
+.features-slide {
+  background: rgba(255, 255, 255, 0.95); /* slide box */
+  padding: 40px 35px; /* increased padding for taller box */
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+
+/* Horizontal row inside the slide box */
+.features-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+/* Each feature inside the row */
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 140px;
+}
+
+/* Bigger icons */
+.feature .icon {
+  font-size: 3rem; /* larger for visibility */
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.feature:hover .icon {
+  transform: scale(1.25);
+}
+
+/* Feature text */
+.feature span {
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #12343b;
+  text-align: center;
+}

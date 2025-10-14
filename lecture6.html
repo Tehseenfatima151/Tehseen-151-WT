@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lecture 6 – Forms & Buttons in HTML5</title>
+  <link rel="stylesheet" href="style6.css">
+  <link rel="stylesheet" href="css/all.min.css"> <!-- Font Awesome -->
+</head>
+<body>
+
+  <header>
+    <h1><i class="fas fa-edit"></i> Lecture 6 – HTML Forms</h1>
+  </header>
+
+  <main>
+
+    <!-- SLIDE 1: The <form> Element -->
+    <section class="topic article-slide">
+      <h2><i class="fas fa-edit"></i> The &lt;form&gt; Element</h2>
+
+      <div class="article-row">
+        <!-- LEFT: Text -->
+        <div class="article-text">
+          <p>
+            <b>The &lt;form&gt; Element</b> is the container for all form elements.
+            It defines a form for collecting user input.
+          </p>
+
+          <h3>Example:</h3>
+          <div class="code-box">
+<pre><code>&lt;form action="/submit" method="post"&gt;
+  &lt;!-- Form content here --&gt;
+&lt;/form&gt;
+</code></pre>
+          </div>
+        </div>
+
+        <!-- RIGHT: Image -->
+        <div class="article-image">
+          <img src="C:\Users\HP\Desktop\web-technologies\form-element.png" alt="Form Element Example">
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 2: Form Structure -->
+    <section class="topic">
+      <h2><i class="fas fa-list"></i> Form Structure</h2>
+      <p>
+        Forms contain various elements for user interaction. Input fields, labels, buttons,
+        and selection lists are all common form components.
+      </p>
+
+      <h3>Example:</h3>
+      <div class="code-box">
+<pre><code>&lt;form action="/submit" method="post"&gt;
+  &lt;label for="name"&gt;Name:&lt;/label&gt;
+  &lt;input type="text" id="name" name="name"&gt;
+&lt;/form&gt;
+</code></pre>
+      </div>
+
+      <h3>Output:</h3>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+      </form>
+    </section>
+
+    <!-- SLIDE 3: The <button> Element -->
+    <section class="topic article-slide">
+      <h2><i class="fas fa-mouse-pointer"></i> The &lt;button&gt; Element</h2>
+
+      <div class="article-row">
+        <!-- LEFT: Text -->
+        <div class="article-text">
+          <p>
+            <b>The &lt;button&gt; Element</b> is used to submit the form or trigger JavaScript actions.
+            Types include <code>submit</code>, <code>reset</code>, and <code>button</code>.
+          </p>
+
+          <h3>Example:</h3>
+          <div class="code-box">
+<pre><code>&lt;form&gt;
+  &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;
+</code></pre>
+          </div>
+
+          <h3>Output:</h3>
+          <form>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
+        <!-- RIGHT: Image -->
+        <div class="article-image">
+          <img src="C:\Users\HP\Desktop\web-technologies\button-element.png" alt="Button Element Example">
+        </div>
+      </div>
+    </section>
+
+    <div class="nav">
+      <a href="homepage.html" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Home</a>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Web Technologies – Lecture 6</p>
+  </footer>
+
+</body>
+</html>

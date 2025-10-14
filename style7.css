@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+/* ---------- General ---------- */
+body {
+  font-family: "Quicksand", sans-serif;
+  background: linear-gradient(135deg, #e1b382, #c89666);
+  color: #2d545e;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* ---------- Header ---------- */
+header {
+  background: linear-gradient(90deg, #12343b, #2d545e);
+  color: #e1b382;
+  text-align: center;
+  padding: 35px 20px;
+  border-bottom: 4px solid #c89666;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+/* ---------- Main Section ---------- */
+main {
+  width: 85%;
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+/* ---------- Topic Section ---------- */
+.topic {
+  background: rgba(255,255,255,0.9);
+  border-radius: 14px;
+  padding: 35px 30px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  margin-bottom: 60px;
+}
+.topic h2 {
+  color: #2d545e;
+  border-bottom: 2px solid #c89666;
+  display: inline-block;
+  padding-bottom: 5px;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+.topic p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #12343b;
+}
+.topic ul {
+  list-style: disc inside;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.topic ul li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* ---------- Image Slide Styling ---------- */
+.image-slide {
+  text-align: center;
+}
+.image-container img {
+  width: 75%;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  margin-top: 20px;
+  transition: transform 0.3s ease;
+}
+.image-container img:hover {
+  transform: scale(1.05);
+}
+
+/* ---------- Navigation ---------- */
+.nav {
+  text-align: center;
+  margin-top: 25px;
+}
+.back-btn {
+  display: inline-block;
+  background-color: #12343b;
+  color: #f0e6d2;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+}
+.back-btn:hover {
+  background-color: #2d545e;
+  transform: translateY(-2px);
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  background: #12343b;
+  color: #e1b382;
+  padding: 12px 0;
+  font-size: 0.9rem;
+  margin-top: 60px;
+  box-shadow: 0 -4px 10px rgba(0,0,0,0.1);
+}
