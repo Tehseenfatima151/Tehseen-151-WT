@@ -1,5 +1,10 @@
 # Tehseen-151-WT
-web technology assighment
+Web Technology Assighment
+The REPOSOTIRY CONTAINS CODE OF WEB TECHNOLOGIES content of 8 lecture with knowledge of HTML and CSS explained thriugh images,tables and interactive desighn.
+
+To get tutorial vedio,click on the link below:
+https://drive.google.com/file/d/1QpbU8fXnvvW9N5v3gJQeulrWe4mAHyVa/view?usp=sharing
+
 <img width="796" height="963" alt="sighnup" src="https://github.com/user-attachments/assets/b46e7faf-c911-489c-bbe1-1f6c0f4eeb30" />
 <img width="796" height="1058" alt="homepage" src="https://github.com/user-attachments/assets/0f375450-5047-46d8-a20d-d9ebb181ab7d" />
 <img width="796" height="1738" alt="lecture1" src="https://github.com/user-attachments/assets/b476b05e-48c8-48bf-82a5-eab2af2e22e3" />
